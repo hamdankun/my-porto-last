@@ -3,10 +3,10 @@
 import { ReactNode, useEffect, useState } from "react";
 
 interface ScrollAnimationWrapperProps {
-  children: ReactNode;
+  children: ReactNode | ((visibleSections: Set<string>) => ReactNode);
 }
 
-export default function ScrollAnimationWrapper({
+export function ScrollAnimationWrapper({
   children,
 }: ScrollAnimationWrapperProps) {
   const [visibleSections, setVisibleSections] = useState<Set<string>>(
@@ -41,7 +41,11 @@ export default function ScrollAnimationWrapper({
     };
   }, []);
 
-  return (
-    <>{typeof children === "function" ? children(visibleSections) : children}</>
-  );
+  const isFunction = (
+    value: unknown
+  ): value is (visibleSections: Set<string>) => ReactNode => {
+    return typeof value === "function";
+  };
+
+  return <>{isFunction(children) ? children(visibleSections) : children}</>;
 }
