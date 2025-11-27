@@ -7,6 +7,14 @@ import Contact from "./components/Contact";
 
 const projects = [
   {
+    title: "Carcirus - Online Rental Car Platform",
+    company: "Caricurs",
+    description:
+      "Developed and maintained a comprehensive online rental car platform using React & TypeScript. Enhanced UI/UX and delivered multiple features with smooth performance.",
+    tech: ["Go", "React.js", "Next.js", "MySQL", "Flutter"],
+    year: "2025",
+  },
+  {
     title: "Next Doc - Online Doctor Consultation Platform",
     company: "Autonomous Intelligence Development",
     description:
