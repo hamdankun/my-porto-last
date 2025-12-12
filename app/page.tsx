@@ -4,6 +4,7 @@ import ScrollObserver from "./components/ScrollObserver";
 import Experience from "./components/Experience";
 import ProjectsWithCarousel from "./components/ProjectsWithCarousel";
 import Contact from "./components/Contact";
+import ChatWidget from "./components/ChatWidget";
 
 const projects = [
   {
@@ -179,6 +180,7 @@ export default function Home() {
       <Experience />
       <ProjectsWithCarousel projects={projects} />
       <Contact />
+      <ChatWidget />
     </div>
   );
 }
