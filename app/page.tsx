@@ -162,13 +162,6 @@ const projects = [
     tech: ["Feathers.js", "MongoDB"],
     year: "2018-2019",
   },
-  {
-    title: "Edubox - Learning Management System",
-    company: "PERSONAL PROJECT",
-    description: "Developed and maintained a learning management system.",
-    tech: ["Feathers.js", "MongoDB"],
-    year: "2018-2019",
-  },
 ];
 
 export default function Home() {
