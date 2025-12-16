@@ -19,8 +19,8 @@ const projects = [
     title: "Next Doc - Online Doctor Consultation Platform",
     company: "Autonomous Intelligence Development",
     description:
-      "Developed and maintained a comprehensive online doctor consultation platform using React & TypeScript. Enhanced UI/UX and delivered multiple features with smooth performance.",
-    tech: ["React.js", "Next.js", "MongoDB", "Express.js"],
+      "Developed and maintained a comprehensive online doctor consultation platform with AI using React & TypeScript. Enhanced UI/UX and delivered multiple features with smooth performance.",
+    tech: ["React.js", "Next.js", "MongoDB", "Express.js", "AI Integration"],
     year: "2024-2025",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     company: "Autonomous Intelligence Development",
     description:
       "Developed and maintained a comprehensive crowdfunding platform using crypto wallet.",
-    tech: ["React.js", "Next.js", "PostgreSQL"],
+    tech: ["React.js", "Next.js", "PostgreSQL", "Supabase", "Crypto Wallet"],
     year: "2024-2025",
   },
   {

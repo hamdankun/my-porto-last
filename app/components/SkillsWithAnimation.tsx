@@ -19,7 +19,7 @@ export default function SkillsWithAnimation({
         {[
           {
             category: "Programming Languages",
-            skills: ["PHP", "JavaScript/TypeScript/Node.js", "Go"],
+            skills: ["PHP", "JavaScript/TypeScript", "Go"],
           },
           {
             category: "Framework",
